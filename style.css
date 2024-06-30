@@ -1,0 +1,17 @@
+body{
+    background-color: #3818D9;
+    color: white;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+/* poppins font */
+.poppins-font {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Adjust the value to move the text up by the desired amount */
+.up { 
+    position: relative; 
+    top: -11px;  
+} 
