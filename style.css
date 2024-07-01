@@ -1,5 +1,5 @@
 body{
-    background-color: #3818D9;
+    background-color: rgb(37, 23, 64);
     color: white;
 }
 
@@ -13,5 +13,20 @@ body{
 /* Adjust the value to move the text up by the desired amount */
 .up { 
     position: relative; 
-    top: -11px;  
-} 
+    top: 5px; 
+    left: 70px; 
+}
+
+.repositioned-logo {
+    position: absolute;
+    top: 25px; /* Position from the top */
+    left: 100px; /* Position from the left */
+    transform: translate(-50%, -50%); /* Center the image */
+}
+
+.repositioned-temp {
+    position: absolute;
+    top: 32px; /* Position from the top */
+    left: 90%; /* Position from the left */
+    transform: translate(-50%, -50%); /* Center the image */
+}
